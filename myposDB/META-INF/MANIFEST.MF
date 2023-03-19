@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MyposDB
+Bundle-SymbolicName: myposDB
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: myposdb.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: myposDB
+Import-Package: com.mysql.jdbc,org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: myposdb
