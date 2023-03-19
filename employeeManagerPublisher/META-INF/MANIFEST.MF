@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EmployeeManagerPublisher
+Bundle-SymbolicName: employeeManagerPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: employeemanagerpublisher.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: employeeManagerPublisher
+Import-Package: myposdb,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: employeemanagerpublisher
