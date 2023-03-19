@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BillerPublisher
+Bundle-SymbolicName: billPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: billpublisher.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: billerPublisher
+Import-Package: myposdb,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: billpublisher
